@@ -1,0 +1,263 @@
+.register-page
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+.register-form{
+    padding: 0px 100px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    height: 530px; 
+    
+}
+.register-image {
+    width: 600px;
+    height: 540px;
+
+    background-image: url(../assets/images/d703064a3964ba217a784d145ec31cf171c822ca.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    border-radius: 29px;
+
+    position: relative;
+    overflow: hidden;
+}
+.image-caption {
+    position: absolute;
+
+    left: 60px;
+    bottom: 28px;
+
+    z-index: 1;
+    color: #FFFFFF;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.image-caption h2 {
+    margin: 0 0 8px;
+
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.image-caption p {
+    margin: 0;
+
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.register-tabs{
+    
+
+    width: 274px;
+    height: 54px;
+    background-color: #49BBBD;
+    border-radius: 25px;
+    padding: 6px 3px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+
+.login-tab {
+    flex: 1;
+    height: 40px;
+
+    background-color: transparent;
+    color: white;
+
+    border: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    
+}
+a {
+    text-decoration: none;
+}
+.register-tab {
+    width: 146px;
+    height: 40px;
+
+    background-color: #36AEB5;
+    color: white;
+
+    border: none;
+    border-radius: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-shrink: 0;
+    cursor: pointer;
+}
+.register-description{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0;
+}
+.welcome-message{
+ 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0;
+transform: translateY(20px);
+
+}
+.register-fields-container{
+      display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 361px;
+    height: 250px;
+    align-items: start;
+}
+.register-fields{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: start;
+width: 400px;
+height: 270px;
+}
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+.input-group label {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.input-group input {
+    width: 100%;
+    height: 44px;
+    padding: 0 24px;
+
+    border: 1px solid #49BBBD;
+    border-radius: 24px;
+
+    background-color: #FFFFFF;
+    color: #333333;
+
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+
+    box-sizing: border-box;
+    outline: none;
+}
+.input-group input::placeholder {
+    color: #B5B5B5;
+}
+/* حاوية كلمة المرور والأيقونة */
+.password-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+/* مساحة إضافية للأيقونة داخل حقل كلمة المرور */
+.password-wrapper input {
+    padding-right: 48px;
+}
+/* زر إظهار كلمة المرور */
+.toggle-password {
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0;
+    border: none;
+    background: transparent;
+
+    color: #222222;
+    cursor: pointer;
+}
+.form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    transform: translateY(15px);
+    font-size: 10px;
+}
+.remember-me {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+
+    cursor: pointer;
+    transform: translateY(-50%);
+
+
+}
+.remember-me input {
+    width: 14px;
+    height: 14px;
+    margin: 0;
+
+    accent-color: #49BBBD;
+    cursor: pointer;
+}
+.forgot-password {
+    color: #333333;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.register-button {
+    width: 220px;
+    height: 40px;
+
+    background-color: #49BBBD;
+    color: #FFFFFF;
+
+    border: none;
+    border-radius: 25px;
+
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+    cursor: pointer;
+
+    align-self: flex-end;
+     transform: translateX(35px);
+}
